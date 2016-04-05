@@ -13,7 +13,7 @@ int main()
     ifstream infile("file.in",ios::in);
     if(!infile)
     {
-        cout<<"Failed to open file.in"<<endl;
+        cerr<<"Failed to open file.in"<<endl;
         exit(1);
     }
     infile>>num_cow;
