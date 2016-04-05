@@ -1,0 +1,33 @@
+*PartA:
+How to compile this program (lab3):
+For Mac/Linux:
+	In terminal, type:
+	1.	cd (directory in which the files are contained);
+	2.	touch lab3.cpp;
+			(update last modified time of lab3.cpp)
+	3.	make;
+	4.	./lab3;
+
+*PartB:
+    Result:
+        1.  size=1000
+            sort():6.9e-05 seconds (0.000069 seconds)
+            insertion_sort():0.005828 seconds
+
+        2.  size=10000
+            sort():0.000979 seconds
+            insertion_sort():0.492039 seconds
+
+        3.  size=100000
+            sort():0.008084 seconds
+            insertion_sort():47.4848 seconds
+
+        4.  size=1000000
+            sort():0.095146 seconds
+            insertion_sort(): N/A
+    For size=1000,
+        (insertion_sort())0.005828/(sort())0.000069 ~ 84
+    For size=10000,
+        0.492039/0.000979 ~ 503
+    For size=100000,
+        47.4848/0.008084 ~ 5874
